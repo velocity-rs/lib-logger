@@ -10,5 +10,5 @@ log = { version = "0.4.27" }
 fern = { version = "0.7.1", features = ["colored"] }
 chrono = { version = "0.4.42" }
 
-[lints]
-workspace = true
+[lints.rust]
+unsafe_code = "forbid"
